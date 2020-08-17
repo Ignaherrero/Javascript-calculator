@@ -2,7 +2,7 @@ import React from 'react';
 function Button(props) {
   return (
     <div className="new2">
-      <button id="clear" onClick={props.handleClick} value="C" >C</button>
+      <button id="clear" className="clear" onClick={props.handleClick} value="C" >C</button>
       <button id="divide" onClick={props.handleClick} value="/" >/</button>
       <button id="multiply" onClick={props.handleClick} value="*" >X</button>
       <button id="seven" onClick={props.handleClick} value="7" >7</button>
@@ -16,7 +16,7 @@ function Button(props) {
       <button id="one" onClick={props.handleClick} value="1" >1</button>
       <button id="two" onClick={props.handleClick} value="2" >2</button>
       <button id="three" onClick={props.handleClick} value="3" >3</button>
-      <button id="equals" onClick={props.handleClick} value="=" >=</button>
+      <button id="equals" className="equals" onClick={props.handleClick} value="=" >=</button>
       <button id="zero" onClick={props.handleClick} value="0" >0</button>
       <button id="decimal" onClick={props.handleClick} value="." >.</button>
       <button id="clearOneDigit" onClick={props.handleClick} value="CE" >CE</button>
