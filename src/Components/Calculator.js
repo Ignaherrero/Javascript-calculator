@@ -114,7 +114,7 @@ class Calculator extends React.Component {
 
   render() {
     return (
-      <div >
+      <div>
         <Display state={this.state} />
         <Button handleClick={this.handleClick} />
       </div>
